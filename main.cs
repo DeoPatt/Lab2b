@@ -3,19 +3,19 @@ using System;
 class MainClass {
   public static void Main (string[] args) {
     Console.WriteLine("Enter a number"); 
-    int num1 = Convert.ToInt32(Console.ReadLine());
+    double num1 = Convert.ToDouble(Console.ReadLine());
     
     Console.WriteLine("Enter Another Number");
-    int num2 = Convert.ToInt32(Console.ReadLine());
-    int sum = num1 + num2;
+    double num2 = Convert.ToDouble(Console.ReadLine());
+    double sum = num1 + num2;
     Console.WriteLine("sum = " +  sum);
-    int diff = num1 - num2;
+    double diff = num1 - num2;
     Console.WriteLine("Diff = " + diff);
-    int pro = num1 * num2;
+    double pro = num1 * num2;
     Console.WriteLine("Product = " + pro);
-    int quo = num1 / num2;
+    double quo = num1 / num2;
     Console.WriteLine("Quotient = " + quo);
-    int remain = num1 % num2;
+    double remain = num1 % num2;
     Console.WriteLine("Remainder = " + remain);
   }
 }
